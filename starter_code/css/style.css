@@ -1,7 +1,7 @@
 /*
 Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Client: Relaxr
+Author: Emma DeMango
 Developer @GA in NYC
 */
 
@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -58,7 +58,7 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 100%;
   margin: auto;
   height: 500px;
@@ -68,10 +68,168 @@ body {
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  width: 100%;
+  height: 500px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.relaxer{
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 50px 80px 10px 80px;
+  color: white;
+  position: absolute;
+  -webkit-box-sizing: border-box; 
+}
+
+.tap {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box; 
+  width: 400px;
+  height: 100px;
+  position: relative;
+  top: 150px;
+
+}
+
+.get-it{
+  background: #f9e42e;
+  color: #121212;
+  font-weight: bolder;
+  font-size: 24px;
+  border-radius: 5px;
+  border-color: #f9e42e;
+  text-align: center;
+  display: block;
+  margin: 200px 0px 200px 0px;
+  -webkit-box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  top: -20px;
+  left: 350px;
+}
+
+.benifits-general{
+  height: 200px;
+  width: 500px;
+  margin: 50px;
+}
+
+.benifits-head{
+  color: #033048;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+
+}
+
+.benifits-list{
+background: white;
+color: #606161;
+font-weight: lighter;
+font-size: 13px;
+text-align: left;
+}
+
+.benifits-intro{
+font-weight: lighter;
+font-size: 13px;
+text-align: left;
+margin: 0 auto;
+padding: 10px;
+}
+
+
+.testimonial{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+  color: #606161;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 100px;
+  font-style: italic;
+}
+
+.by{
+  color: white;
+  text-align: center;
+}
+
+.button-back{
+  background: #f9e42e;
+  font-weight: bolder;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button{
+  background: #033048;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 50px;
+  border-color: #033048;
+  border-radius: 5px;
+
+  }
+
+.footer-title{
+  font-weight: bolder;
+  color: #f9e42e;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+
 }
 
 footer {
+  background: #121212;
+  color: #606161;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 9px;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  position: relative;
+}
 
+h2{
+  display: block;
+  position: relative;
+  top: 20px;
+}
+
+.facebook{
+ display: inline-block;
+  margin-right: 0 auto;
+  padding: 20px;
+  position: relative;
+  bottom: 20px;
+  top: 20px;
+}
+
+.twitter{
+  display: inline-block;
+  margin-left: 0 auto;
+  padding: 20px;
+  position: relative;
+  bottom: 20px;
+  top: 20px;
 }
 
 /******************************************
