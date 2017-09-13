@@ -107,14 +107,14 @@ header {
   border-color: #f9e42e;
   text-align: center;
   display: block;
-  margin: 200px 0px 200px 0px;
-  -webkit-box-sizing: border-box;
-  width: 200px;
-  height: 50px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box; 
+  width: 250px;
+  height: 80px;
   position: relative;
-  top: -20px;
-  left: 350px;
-}
+  top: 150px;
+  -webkit-box-sizing: border-box; 
+ }
 
 .benifits-general{
   height: 200px;
@@ -156,6 +156,12 @@ padding: 10px;
   text-align: center;
   padding: 100px;
   font-style: italic;
+}
+
+.testimonial-txt{
+  text-align: center;
+  display: block;
+  margin: 15px 150px;
 }
 
 .by{
